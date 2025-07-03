@@ -1,0 +1,6 @@
+@DebHabit.Api_HostAddress = http://localhost:5087
+
+GET {{DebHabit.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

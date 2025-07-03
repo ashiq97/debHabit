@@ -1,0 +1,9 @@
+services:
+  debhabit.api:
+    image: ${DOCKER_REGISTRY-}debhabitapi
+    build:
+      context: .
+      dockerfile: DebHabit.Api/Dockerfile
+    ports:
+     - 5087:8000
+     - 7074:8001
